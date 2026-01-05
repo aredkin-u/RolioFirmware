@@ -31,7 +31,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <300>;
-            bindings = <&mo W_SYMBOLS>, <&tog NUMPAD>;
+            bindings = <&mo SYE>, <&tog NUM>;
         };
 
         //Backlight Brightness
@@ -122,7 +122,7 @@
             display-name = "Set Connection Default Layer to Windows";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&df WINDOWS>;
+            bindings = <&df EN>;
         };
         // Macro KP
         kpss: kpss {
