@@ -29,25 +29,10 @@
 * #define KB_CONFIG 7
 */
 
-// #include "keymap_behaviors.dtsi"
-// #include "keymap_macros.dtsi"
+#include "keymap_behaviors.dtsi"
+#include "keymap_macros.dtsi"
 
 / {
-    behaviors {
-        // Shift / Capsword
-         scw: scw {
-            display-name = "Hold Shift / Tap Capsword";
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <200>;
-            bindings = <&kp>, <&caps_word>;
-        };
-    };
-
-    macros{
-           };
-
     keymap {
         compatible = "zmk,keymap";
 
