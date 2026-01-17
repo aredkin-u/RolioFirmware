@@ -539,7 +539,7 @@
       &out OUT_TOG     &btkp 0 N1      &btkp 1 N2      &btkp 2 N3      &btkp 3 N4      &btkp 4 N5      &kp N6         &kp N7          &kp N8          &kp N9         &kp N0          &soft_off
       &none            &none           &none           &none           &none           &none           &none          &kp N4          &kp N5         &kp N6          &none           &none
       &none            &bl BL_TOG      &btclr_kp X X   &bl BL_DEC      &bl BL_TOG      &bl BL_INC      &bl BL_TOG     &none           &none          &kp N1          &kp N2          &kp N3         &none            &none
-                                       &none           &df_win         &none           &df_mac         &none          &none           &none          &kp N0          &none           &none      
+                                       &none           &df_win         &none           &none           &none          &none           &none          &kp N0          &none           &none      
             >;
         };
 
