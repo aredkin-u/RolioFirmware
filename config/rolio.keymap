@@ -514,10 +514,10 @@
             display-name = "Sym Ru";
             sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp LEFT RIGHT>;
             bindings = <
-&en AT         &en HASH          &kp PRCNT     &en CARET    &en AMPS              &kp RU_CYRILLIC_IO                      &en LT            &en GT             &kp LPAR         &kp RPAR                   &kp PLUS   &kp MINUS
-&kp RU_NUMERO  &en TILDE         &en GRAVE     &en SQT      &kp RU_DOUBLE_QUOTES  &en DLLR                                &en LEFT_BRACKET  &en RIGHT_BRACKET  &en LBRC         &en RBRC                   &kp STAR   &kp RU_FSLH
-&kp LCTRL      &kp RU_BACKSLASH  &en PIPE      &kp RU_FSLH  &trans                &kp EXCL             &trans  &trans     &kp F16           &kp F17            &kp RU_QUESTION  &kp RU_CYRILLIC_HARD_SIGN  &kp UNDER  &kp EQUAL
-                                 &trans        &trans       &trans                &trans               &trans  &trans     &trans   &trans   &trans   &trans
+&en AT         &en HASH          &kp PRCNT     &en CARET    &en AMPS              &kp RU_CYRILLIC_IO                       &en LT            &en GT                     &kp LPAR    &kp RPAR    &kp PLUS      &kp MINUS
+&kp RU_NUMERO  &en TILDE         &en GRAVE     &en SQT      &kp RU_DOUBLE_QUOTES  &en DLLR                                 &en LEFT_BRACKET  &en RIGHT_BRACKET          &en LBRC    &en RBRC    &kp STAR      &kp RU_FSLH
+&kp LCTRL      &kp RU_BACKSLASH  &en PIPE      &kp RU_FSLH  &trans                &kp EXCL             &trans     &trans   &kp RU_QUESTION   &kp RU_CYRILLIC_HARD_SIGN  &kp UNDER   &kp EQUAL   &kp RU_COLON  &kp RU_SEMI
+                                 &trans        &trans       &trans                &trans               &trans     &trans   &trans   &trans   &trans   &trans
             >;
         };
 
