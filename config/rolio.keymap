@@ -466,10 +466,10 @@
             display-name = "En";
             sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp LEFT RIGHT>;
             bindings = <
-&lt 2 ESC          &kp Q  &kp W  &kp E   &kp R  &kp T                                   &kp Y          &kp U    &kp I       &kp O       &kp P      &none
-&mt CAPSLOCK TAB   &kp A  &kp S  &kp D   &kp F  &hml LSHFT G                            &hmr RSHFT H   &kp J    &kp K       &kp L       &none      &kp SLASH
-&kp LCTRL          &kp Z  &kp X  &kp C   &kp V  &kp B       &kp N1    &kp N2            &kp N          &kp M    &none       &none       &kp COMMA  &kp DOT
-                   &kp Z  &kp X  &mo 5  &kp ENTER          &kp N3  &kp N4     &kp N6  &kp N7    &kp N8  &kp N9
+&lt 2 ESC          &kp Q  &kp W  &kp E   &kp R   &kp T                                  &kp Y          &kp U           &kp I       &kp O       &kp P      &none
+&mt CAPSLOCK TAB   &kp A  &kp S  &kp D   &kp F   &hml LSHFT G                           &hmr RSHFT H   &kp J           &kp K       &kp L       &none      &kp SLASH
+&kp LCTRL          &kp Z  &kp X  &kp C   &kp V   &kp B          &kp N1      &kp N2      &kp N          &kp M           &none       &none       &kp COMMA  &kp DOT
+                         &kp Z   &kp X   &mo 5   &mo 2          &kp SPACE   &kp ENTER   &mo 3          &kp BACKSPACE   &kp N8      &kp N9
             >;
         };
 
@@ -478,10 +478,10 @@
             display-name = "Ru";
             sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp LEFT RIGHT>;
             bindings = <
-&lt 2 ESC         &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp RU_CYRILLIC_U   &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_IE                        &kp RU_CYRILLIC_EN          &kp RU_CYRILLIC_GHE  &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_SHCHA      &kp RU_CYRILLIC_ZE   &kp RU_CYRILLIC_HA
-&mt CAPSLOCK TAB  &kp RU_CYRILLIC_EF       &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_A   &hml LSHIFT RU_CYRILLIC_PE                &hmr RSHIFT RU_CYRILLIC_ER  &kp RU_CYRILLIC_O    &kp RU_CYRILLIC_EL   &kp RU_CYRILLIC_DE         &kp RU_CYRILLIC_ZHE  &kp RU_CYRILLIC_E
-&kp LCTRL         &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I                         &kp A                       &kp F17              &kp RU_CYRILLIC_TE   &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE   &kp RU_CYRILLIC_YU
-                                           &mo 6                 &kp RU_COMMA        &kp LALT            &scw RSHIFT 0               &mo 5  &mo 2                              &kp SPACE            &kp ENTER            &kp BACKSPACE              &mo 4
+&lt 2 ESC         &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp RU_CYRILLIC_U   &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_IE                                    &kp RU_CYRILLIC_EN          &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_SHCHA      &kp RU_CYRILLIC_ZE   &kp RU_CYRILLIC_HA
+&mt CAPSLOCK TAB  &kp RU_CYRILLIC_EF       &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_A   &hml LSHIFT RU_CYRILLIC_PE                            &hmr RSHIFT RU_CYRILLIC_ER  &kp RU_CYRILLIC_O          &kp RU_CYRILLIC_EL   &kp RU_CYRILLIC_DE         &kp RU_CYRILLIC_ZHE  &kp RU_CYRILLIC_E
+&kp LCTRL         &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I             &kp A       &kp F17     &kp RU_CYRILLIC_TE          &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE   &kp RU_CYRILLIC_YU         &kp RU_DOT           &kp RU_COMMA
+                                           &kp Z                 &kp X               &mo 5               &mo 2                         &kp SPACE   &kp ENTER   &mo 3                       &kp BACKSPACE              &kp N8               &kp N9
             >;
         };
 
@@ -490,10 +490,10 @@
             display-name = "F keys";
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &scroll_up_down>;
             bindings = <
-&none      &kp F1      &kp F2    &kp F3  &kp F4   &kp F5                   &kp F5  &kp F10  &kp F11  &kp F10  &none   &none
-&kp F6     &kp F7      &kp F8    &kp F9  &kp F10  &kp F11                  &kp F4  &kp F9   &kp F6   &kp F11  &none   &none
-&kp LCTRL  &kp LSHIFT  &kp LALT  &none   &none    &kp F12                  &kp F1  &kp F2   &kp F3   &none    &none   &none
-                       &trans    &trans  &trans   &trans   &trans  &trans          &trans   &trans   &trans   &trans
+&none      &kp F1      &kp F2    &kp F3  &kp F4   &kp F5                    &kp F5  &kp F10  &kp F11  &kp F10  &none   &none
+&kp F6     &kp F7      &kp F8    &kp F9  &kp F10  &kp F11                   &kp F4  &kp F9   &kp F6   &kp F11  &none   &none
+&kp LCTRL  &kp LSHIFT  &kp LALT  &none   &none    &kp F12  &trans  &trans   &kp F1  &kp F2   &kp F3   &none    &none   &none
+                       &trans    &trans  &trans   &trans   &trans  &trans   &trans   &trans   &trans   &trans
             >;
         };
 
@@ -502,10 +502,10 @@
             display-name = "Sym En";
             sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp LEFT RIGHT>;
             bindings = <
-&kp AT     &kp HASH   &kp PRCNT  &kp CARET      &kp AMPS  &none                     &kp LT            &kp GT             &kp LPAR      &kp RPAR  &kp PLUS   &kp MINUS
-&kp HASH   &kp TILDE  &kp GRAVE  &kp SQT        &kp DQT   &kp DLLR                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LBRC      &kp RBRC  &kp ASTRK  &kp FSLH
-&kp LCTRL  &kp BSLH   &kp PIPE   &kp FSLH       &none     &kp EXCL                  &kp F16           &kp F17            &kp QUESTION  &none     &kp UNDER  &kp EQUAL
-                      &kp COLON  &kp SEMICOLON  &trans    &trans    &trans  &trans                    &trans             &trans        &trans    &trans
+&kp AT     &kp HASH   &kp PRCNT  &kp CARET      &kp AMPS  &none                       &kp LT            &kp GT             &kp LPAR      &kp RPAR  &kp PLUS   &kp MINUS
+&kp HASH   &kp TILDE  &kp GRAVE  &kp SQT        &kp DQT   &kp DLLR                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LBRC      &kp RBRC  &kp ASTRK  &kp FSLH
+&kp LCTRL  &kp BSLH   &kp PIPE   &kp FSLH       &none     &kp EXCL   &trans  &trans   &kp F16           &kp F17            &kp QUESTION  &none     &kp UNDER  &kp EQUAL
+                      &trans     &trans         &trans    &trans     &trans  &trans   &trans   &trans   &trans   &trans
             >;
         };
 
@@ -514,10 +514,10 @@
             display-name = "Sym Ru";
             sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp LEFT RIGHT>;
             bindings = <
-&en AT         &en HASH          &kp PRCNT     &en CARET    &en AMPS              &kp RU_CYRILLIC_IO                  &en LT            &en GT             &kp LPAR         &kp RPAR                   &kp PLUS   &kp MINUS
-&kp RU_NUMERO  &en TILDE         &en GRAVE     &en SQT      &kp RU_DOUBLE_QUOTES  &en DLLR                            &en LEFT_BRACKET  &en RIGHT_BRACKET  &en LBRC         &en RBRC                   &kp STAR   &kp RU_FSLH
-&kp LCTRL      &kp RU_BACKSLASH  &en PIPE      &kp RU_FSLH  &trans                &kp EXCL                            &kp F16           &kp F17            &kp RU_QUESTION  &kp RU_CYRILLIC_HARD_SIGN  &kp UNDER  &kp EQUAL
-                                 &kp RU_COLON  &kp RU_SEMI  &trans                &trans              &trans  &trans                    &trans             &trans           &trans                     &trans
+&en AT         &en HASH          &kp PRCNT     &en CARET    &en AMPS              &kp RU_CYRILLIC_IO                      &en LT            &en GT             &kp LPAR         &kp RPAR                   &kp PLUS   &kp MINUS
+&kp RU_NUMERO  &en TILDE         &en GRAVE     &en SQT      &kp RU_DOUBLE_QUOTES  &en DLLR                                &en LEFT_BRACKET  &en RIGHT_BRACKET  &en LBRC         &en RBRC                   &kp STAR   &kp RU_FSLH
+&kp LCTRL      &kp RU_BACKSLASH  &en PIPE      &kp RU_FSLH  &trans                &kp EXCL             &trans  &trans     &kp F16           &kp F17            &kp RU_QUESTION  &kp RU_CYRILLIC_HARD_SIGN  &kp UNDER  &kp EQUAL
+                                 &trans        &trans       &trans                &trans               &trans  &trans     &trans   &trans   &trans   &trans
             >;
         };
 
@@ -526,10 +526,10 @@
             display-name = "Num Arrow";
             sensor-bindings = <&bri_adjust &inc_dec_kp LEFT RIGHT>;
             bindings = <
-&none      &kp N1  &kp N2    &kp N3        &kp PG_UP  &kp HOME                    &kp N7        &kp NUMBER_8  &kp N9        &kp N0   &kp PLUS   &kp RU_MINUS
-&none      &kp N4  &kp N5    &kp N6      &kp RIGHT  &kp INS                     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none    &kp STAR   &kp RU_FSLH
-&kp LCTRL  &kp N7  &kp N8    &kp N9      &kp N0  &kp END                     &kp F16       &kp F17       &kp N1        &kp N2   &kp N3     &kp EQUAL
-                          &kp Z  &kp X  &trans  &kp ENTER          &kp N3  &kp N4     &kp N6  &kp N7    &kp N8  &kp N9
+&none      &kp PAUSE_BREAK  &kp C_VOLUME_UP    &kp UP    &kp PG_UP  &kp HOME                                &kp N7      &kp N8   &kp N9   &kp N0     &kp PLUS    &kp RU_MINUS
+&none      &kp PRINTSCREEN  &kp LEFT           &kp DOWN  &kp RIGHT  &kp INS                                 &kp N4      &kp N5   &kp N6   &none      &kp STAR    &kp RU_FSLH
+&kp LCTRL  &none            &kp C_VOLUME_DOWN  &kp C_PP  &kp PG_DN  &kp END     &trans         &trans       &kp N1      &kp N2   &kp N3   &kp EQUAL  &kp RU_DOT  &kp RU_COMMA
+                            &kp Z              &kp X     &trans     &kp LALT    &kp LSHIFT     &kp RSHIFT   &kp RCTRL   &kp DEL  &kp N8   &kp N9
             >;
         };
 
@@ -537,10 +537,10 @@
             display-name = "Set";
             sensor-bindings = <&bri_adjust &inc_dec_kp LEFT RIGHT>;
             bindings = <
-&out OUT_TOG  &btkp 0 N1  &btkp 1 N2     &btkp 2 N3  &btkp 3 N4  &btkp 4 N5                &kp N6      &kp N7  &kp N8  &kp N9  &kp N0  &soft_off
-&none         &none       &none          &none       &none       &none                     &none       &kp N4  &kp N5  &kp N6  &none   &none
-&none         &bl BL_TOG  &btclr_kp X X  &bl BL_DEC  &bl BL_TOG  &bl BL_INC                &bl BL_TOG  &none   &none   &kp N1  &kp N2  &kp N3
-                          &none          &none       &none       &df_win     &none  &none              &none   &none   &none   &kp N0
+&out OUT_TOG  &btkp 0 N1    &btkp 1 N2      &btkp 2 N3   &btkp 3 N4    &btkp 4 N5                            &kp N6   &kp N7  &kp N8  &kp N9  &kp N0  &soft_off
+&none         &none         &none           &none        &none         &none                                 &none    &kp N4  &kp N5  &kp N6  &none   &none
+&trans        &bl BL_TOG    &btclr_kp X X   &bl BL_DEC   &bl BL_TOG    &bl BL_INC     &bl BL_TOG    &trans   &trans   &kp N1  &kp N2  &kp N3  &trans  &trans
+                            &trans          &df_win      &trans        &trans         &trans        &trans   &trans   &trans  &trans  &kp N0
             >;
         };
     };
