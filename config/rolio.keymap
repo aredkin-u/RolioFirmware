@@ -529,7 +529,7 @@
 &none      &kp PAUSE_BREAK  &kp C_VOLUME_UP    &kp UP    &kp PG_UP  &kp HOME                                &kp N7      &kp N8   &kp N9   &kp N0     &kp PLUS    &kp RU_MINUS
 &none      &kp PRINTSCREEN  &kp LEFT           &kp DOWN  &kp RIGHT  &kp INS                                 &kp N4      &kp N5   &kp N6   &none      &kp STAR    &kp RU_FSLH
 &kp LCTRL  &none            &kp C_VOLUME_DOWN  &kp C_PP  &kp PG_DN  &kp END     &trans         &trans       &kp N1      &kp N2   &kp N3   &kp EQUAL  &kp RU_DOT  &kp RU_COMMA
-                            &kp Z              &kp X     &trans     &kp LALT    &kp LSHIFT     &kp RSHIFT   &kp RCTRL   &kp DEL  &kp N8   &kp N9
+                            &kp Z              &kp X     &trans     &kp LALT    &kp LSHIFT     &kp RSHIFT   &kp RCTRL   &kp DEL  &kp N8   &kp ENTER
             >;
         };
 
