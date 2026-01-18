@@ -526,10 +526,10 @@
             display-name = "Num Arrow";
             sensor-bindings = <&bri_adjust &inc_dec_kp LEFT RIGHT>;
             bindings = <
-&none      &kp PAUSE_BREAK  &kp C_VOLUME_UP    &kp UP        &kp PG_UP  &kp HOME                    &kp N7        &kp NUMBER_8  &kp N9        &kp N0   &kp PLUS   &kp RU_MINUS
-&none      &kp PRINTSCREEN  &kp LEFT           &kp DOWN      &kp RIGHT  &kp INS                     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none    &kp STAR   &kp RU_FSLH
-&kp LCTRL  &none            &kp C_VOLUME_DOWN  &kp C_PP      &kp PG_DN  &kp END                     &kp F16       &kp F17       &kp N1        &kp N2   &kp N3     &kp EQUAL
-                            &kp RU_DOT         &kp RU_COMMA  &none      &none     &trans  &kp LALT                &kp LSHIFT    &kp RSHIFT    &kp DEL  &kp RCTRL
+&none      &kp N1  &kp N2    &kp N3        &kp PG_UP  &kp HOME                    &kp N7        &kp NUMBER_8  &kp N9        &kp N0   &kp PLUS   &kp RU_MINUS
+&none      &kp N4  &kp N5    &kp N6      &kp RIGHT  &kp INS                     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none    &kp STAR   &kp RU_FSLH
+&kp LCTRL  &kp N7  &kp N8    &kp N9      &kp N0  &kp END                     &kp F16       &kp F17       &kp N1        &kp N2   &kp N3     &kp EQUAL
+                          &kp Z  &kp X  &trans  &kp ENTER          &kp N3  &kp N4     &kp N6  &kp N7    &kp N8  &kp N9
             >;
         };
 
